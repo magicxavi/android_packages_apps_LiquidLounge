@@ -1394,4 +1394,6 @@
     <string name="lockscreen_date_selection_str_border_accent">Dark with accented borders</string>
     <string name="lockscreen_date_selection_str_border_gradient">Dark with gradient borders</string>
 
+    <!-- Advanced Controls -->
+    <string name="advanced_controls_title">Advanced Controls</string>
 </resources>
