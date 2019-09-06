@@ -68,7 +68,7 @@ public class MiscSettings extends SettingsPreferenceFragment
             getPreferenceScreen().removePreference(SmartPixels);
         }
         // Advanced Controls
-        if (!com.liquid.settings.Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
+        if (!com.liquid.liquidlounge.preferences.Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
             getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
         }
         // MediaScanner behavior on boot
