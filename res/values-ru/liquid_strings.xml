@@ -1241,8 +1241,6 @@
 
     <!-- Weather -->
     <string name="weather_unit">Единицы измерения температуры</string>
-    <string name="weather_unit_metric" translatable="false">Градусы Цельсия</string>
-    <string name="weather_unit_imperial" translatable="false">Градусы Фаренгейта</string>
 
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Кнопка закрытия приложения</string>
@@ -1301,7 +1299,6 @@
     <!-- Donate LiquidRemix -->
     <string name="donate_liquid_title">Донаты</string>
     <string name="donate_liquid_summary">Помогите для поддержания сервера и разработки</string>
-    <string name="donate_dev_title" translatable="false">Ryan Birnesser (liquid0624)</string>
     <string name="donate_dev_summary">Главный разработчик и основатель</string>
 
     <!-- FastCharge LED -->
