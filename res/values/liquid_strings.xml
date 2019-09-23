@@ -1284,16 +1284,16 @@
     <!-- Share LiquidRemix -->	
     <string name="share_liquid_title">Share LiquidRemix</string>
     <string name="share_liquid_summary">Let others know about LiquidRemix</string>
-    <string name="share_message">Try LiquidRemix! https://plus.google.com/communities/115990749843435030575</string>
+    <string name="share_message">Try LiquidRemix! https://sourceforge.net/projects/bliss-rom-kenzo/files/liquidremix/</string>
     <string name="share_chooser_title">Share LiquidRemix</string>
 
     <!-- Sites LiquidRemix -->
     <string name="liquid_source_title">GitHub</string>
     <string name="liquid_source_summary">We love open source, check us out</string>
-    <string name="liquid_google_plus_title">Google+</string>
-    <string name="liquid_google_plus_summary">Join us on G+ for quick updates and support</string>
-    <string name="liquid_telegram_title">Telegram</string>
-    <string name="liquid_telegram_summary">We are on telegram. Join us!</string>
+    <string name="liquid_paypal_title">Donate to @Magicxavi</string>
+    <string name="liquid_paypal_summary">Pay me a coffee if you like my work.</string>
+    <string name="liquid_telegram_title">Telegram @Magicxavi</string>
+    <string name="liquid_telegram_summary">Start a chat with maintainer</string>
 
     <!-- Maintainers -->
     <string name="maintainers">Maintainers</string>

@@ -44,12 +44,12 @@ public class About extends SettingsPreferenceFragment implements Indexable {
     private String KEY_LIQUID_SOURCE = "liquid_source";
     private String KEY_LIQUID_TELEGRAM = "liquid_telegram";
     private String KEY_LIQUID_SHARE = "liquid_share";
-    private String KEY_LIQUID_GOOLE_PLUS = "liquid_google_plus";
+    private String KEY_LIQUID_PAYPAL = "liquid_paypal";
 
     private Preference mSourceUrl;
     private Preference mTelegramUrl;
     private Preference mShare;
-    private Preference mGoogleUrl;
+    private Preference mPaypalUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,7 @@ public class About extends SettingsPreferenceFragment implements Indexable {
         mSourceUrl = findPreference(KEY_LIQUID_SOURCE);
         mTelegramUrl = findPreference(KEY_LIQUID_TELEGRAM);
         mShare = findPreference(KEY_LIQUID_SHARE);
-        mGoogleUrl = findPreference(KEY_LIQUID_GOOLE_PLUS);
+        mGoogleUrl = findPreference(KEY_LIQUID_PAYPAL);
     }
 
     @Override
@@ -67,7 +67,7 @@ public class About extends SettingsPreferenceFragment implements Indexable {
         if (preference == mSourceUrl) {
             launchUrl("https://github.com/LiquidRemix");
         } else if (preference == mTelegramUrl) {
-            launchUrl("https://t.me/LiquidRemixChat");
+            launchUrl("https://t.me/Magicxavi");
         } else if (preference == mShare) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);
@@ -76,7 +76,7 @@ public class About extends SettingsPreferenceFragment implements Indexable {
                     getActivity().getString(R.string.share_message), Build.MODEL));
             startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
         } else if (preference == mGoogleUrl) {
-            launchUrl("https://plus.google.com/communities/115990749843435030575");
+            launchUrl("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VWLRH5WWM32UY&source=url");
         }
 
         return super.onPreferenceTreeClick(preference);

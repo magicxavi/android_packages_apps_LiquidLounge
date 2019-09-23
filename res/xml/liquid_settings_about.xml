@@ -39,12 +39,12 @@
         android:summary="@string/liquid_telegram_summary"
         settings:allowDividerAbove="false" />
 
-    <!-- Liquid GooglePlus -->
+    <!-- Liquid Donate -->
     <PreferenceScreen
-        android:key="liquid_google_plus"
-        android:icon="@drawable/ic_gplus"
-        android:title="@string/liquid_google_plus_title"
-        android:summary="@string/liquid_google_plus_summary"
+        android:key="liquid_paypal"
+        android:icon="@drawable/ic_donate"
+        android:title="@string/liquid_paypal_title"
+        android:summary="@string/liquid_paypal_summary"
         settings:allowDividerAbove="false" /> 
      
      <!-- liquid Drill -->
@@ -63,16 +63,7 @@
         android:title="@string/maintainers_liquid_title"
         android:summary="@string/maintainers_liquid_summary"
         android:fragment="com.liquid.liquidlounge.fragments.about.Maintainers"
-        settings:allowDividerAbove="false" /> 
-     
-     <!-- Liquid Donate -->
-    <PreferenceScreen
-        android:key="liquid_donate"
-        android:icon="@drawable/ic_donate"
-        android:title="@string/donate_liquid_title"
-        android:summary="@string/donate_liquid_summary"
-        android:fragment="com.liquid.liquidlounge.fragments.about.Donate"
-        settings:allowDividerAbove="false" /> 
+        settings:allowDividerAbove="false" />  
      
        <!-- LIQUID OTA updates -->
      <Preference
