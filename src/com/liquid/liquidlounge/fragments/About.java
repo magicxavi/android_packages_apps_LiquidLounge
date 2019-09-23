@@ -59,7 +59,7 @@ public class About extends SettingsPreferenceFragment implements Indexable {
         mSourceUrl = findPreference(KEY_LIQUID_SOURCE);
         mTelegramUrl = findPreference(KEY_LIQUID_TELEGRAM);
         mShare = findPreference(KEY_LIQUID_SHARE);
-        mGoogleUrl = findPreference(KEY_LIQUID_PAYPAL);
+        mPaypalUrl = findPreference(KEY_LIQUID_PAYPAL);
     }
 
     @Override
@@ -75,7 +75,7 @@ public class About extends SettingsPreferenceFragment implements Indexable {
             intent.putExtra(Intent.EXTRA_TEXT, String.format(
                     getActivity().getString(R.string.share_message), Build.MODEL));
             startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
-        } else if (preference == mGoogleUrl) {
+        } else if (preference == mPaypalUrl) {
             launchUrl("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VWLRH5WWM32UY&source=url");
         }
 
