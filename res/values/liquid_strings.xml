@@ -1387,4 +1387,8 @@
 
     <!-- Advanced Controls -->
     <string name="advanced_controls_title">Advanced Controls</string>
+	
+	<!-- Charging animation -->
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 </resources>
