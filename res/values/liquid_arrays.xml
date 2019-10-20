@@ -1120,19 +1120,6 @@
         <item>1</item>
     </string-array>
 
-    <!-- Screenrecord quality -->
-    <string-array name="screenrecord_quality_entries">
-        <item>@string/screenrecord_quality_low</item>
-        <item>@string/screenrecord_quality_medium</item>
-        <item>@string/screenrecord_quality_high</item>
-    </string-array>
-
-    <string-array name="screenrecord_quality_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <!-- Network traffic location -->
     <string-array name="network_traffic_location_entries">
         <item>@string/traffic_disabled</item>

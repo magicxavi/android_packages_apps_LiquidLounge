@@ -98,7 +98,6 @@
 
     <!-- Power menu -->
     <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_screenrecord">Screenrecord</string>
     <string name="powermenu_power">Power</string>
     <string name="powermenu_restart">Restart</string>
     <string name="powermenu_restart_recovery">Advanced restart</string>
@@ -1251,10 +1250,6 @@
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
 
-    <!-- ScreenRecord Shortcut -->
-    <string name="screen_record_shortcut">Screenrecord Shortcut</string>
-    <string name="screen_record_shortcut_summary">Power + Volume Up triggers Screenrecord when enabled</string>
-
     <!-- ScreenShot Shortcut -->
     <string name="screen_shot_shortcut">Screenshot Shortcut</string>
     <string name="screen_shot_shortcut_summary">Power + Volume Down triggers screenshot when enabled</string>
@@ -1332,12 +1327,6 @@
     <string name="battery_blend_start">Empty</string>
     <string name="battery_blend_end">Full</string>
     <string name="battery_blend_between">Between</string>
-
-    <!-- Screenrecord quality -->
-    <string name="screenrecord_quality_title">Screenrecord Quality</string>
-    <string name="screenrecord_quality_low">Low</string>
-    <string name="screenrecord_quality_medium">Medium</string>
-    <string name="screenrecord_quality_high">High</string>
 
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB configuration</string>
