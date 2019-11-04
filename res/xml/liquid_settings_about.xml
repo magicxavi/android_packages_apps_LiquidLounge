@@ -66,14 +66,14 @@
         settings:allowDividerAbove="false" />  
      
        <!-- LIQUID OTA updates -->
-     <Preference
+<!--     <Preference
         android:key="liquid_updates"
         android:icon="@drawable/ic_update"      
         android:title="@string/updates_liquid_title"
         android:summary="@string/updates_liquid_summary">
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.liquid.ota"
-                android:targetClass="com.liquid.ota.MainActivity" />
+                android:targetClass=".UpdatesActivity" />
           
-     </Preference>
+     </Preference> -->
      </PreferenceScreen>
